@@ -1,0 +1,45 @@
+# =============================================================================
+# MumbleManager — .gitignore
+# =============================================================================
+
+# ── Secrets & environment ─────────────────────────────────────────────────────
+.env
+*.env.local
+
+# ── TLS certificates & private keys ──────────────────────────────────────────
+# Never commit real certificates. Use Let's Encrypt / certbot on your server.
+nginx/certs/
+*.pem
+*.key
+*.crt
+*.p12
+*.pfx
+
+# ── Nginx logs ────────────────────────────────────────────────────────────────
+nginx/logs/
+
+# ── SQLite database ───────────────────────────────────────────────────────────
+*.db
+*.db-shm
+*.db-wal
+/data/
+
+# ── .NET build artifacts ──────────────────────────────────────────────────────
+backend/bin/
+backend/obj/
+backend/wwwroot/
+
+# ── Node / frontend build artifacts ──────────────────────────────────────────
+frontend/node_modules/
+frontend/dist/
+
+# ── OS / editor ───────────────────────────────────────────────────────────────
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+*.swp
+*~
+
+# ── Docker override ───────────────────────────────────────────────────────────
+docker-compose.override.yml
