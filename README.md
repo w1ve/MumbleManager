@@ -332,6 +332,19 @@ Pull requests are welcome! For major changes, please open an issue first to disc
 5. Open a Pull Request
 
 ---
+## 📸 Screenshots
+
+<p align="center">
+  <img src="Image1.png" alt="After Login" width="800"/>
+</p>
+
+<p align="center">
+  <img src="image2.png" alt="Virtual Server Config" width="800"/>
+</p>
+
+<p align="center">
+  <img src="Image3.png" alt="Channel Editor" width="800"/>
+</p>
 
 ## 📄 License
 
